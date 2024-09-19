@@ -94,7 +94,7 @@ time.sleep(3)
 #Fourth Dropdown
 z = driver.find_element(By.ID, 'favoriteStore')
 store = Select(z)
-store.select_by_visible_text("Frisco - Preston Rd. (C81)")
+store.select_by_visible_text("City - Street Name (Store Number)")
 
 
 #Username
