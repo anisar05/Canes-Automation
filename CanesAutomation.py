@@ -73,7 +73,7 @@ driver.type('#dateOfBirthDay', '10')
 
 
 #gmail
-email = "arhaan.nisar@gmail.com"
+email = "xxxxx@gmail.com"
 email_list = list(email)
 random_period = random.randint(0, len(email)-1)
 email_list.insert(random_period, ".")
@@ -106,24 +106,11 @@ driver.type('#username', str(user_name))
 password = ''.join(random.choices(string.ascii_letters, k = length))
 driver.type('#password', password)
 driver.type('#confirmPassword', password)
-# password = "typeshi123456789"
 
 
 driver.click("button.registerRegistrationFieldsSubmitButton")
 
 
 time.sleep(1000)
-#6000305500200385545
-#394392
 
-
-#Randomize First Name (Fin)
-#Randomize Last Name (Fin)
-#Keep Dallas - City (Fin)
-#Keep State and Province - State (Fin)
-#Keep Zip code - Zip Code (Fin)
-#Randomize Phone Number (Fin)
-#Randomize Birthdate (Fin)
-#Randomize Username
-#Randomize Password
 
